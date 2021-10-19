@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+    background-color: bisque;
+  }
+
+  h1{
+      text-align: center;
+      font-family: cursive;
+      
+  }
+
+  h4{
+      text-align:center;
+  }
+
+  
+  img {
+    
+    width: 70%;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+  }
+
+  p {
+      text-align: center;
+      word-wrap: normal;
+      font-size: large;
+      font-style: italic;
+  }
+
+  h3{
+    font-family: 'Brittany Signature', sans-serif;
+     font-size:larger;
+     text-align: right;                                          
+  }
