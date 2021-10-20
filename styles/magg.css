@@ -1,0 +1,27 @@
+body {
+    background-color: aquamarine;
+}
+
+img {
+    height: 1000;
+    width: 100%
+  }
+  
+  h1, h2, h3, h4, p, li {
+    font-family: cursive;
+  }
+  
+  .pathway {
+    border: 8px solid;
+    background-color: aquamarine;
+  }
+  
+  .quick_review {
+    border: 2px solid;
+  }
+  
+  
+  .info {
+    border: 2px solid;
+  }
+  
