@@ -1,4 +1,44 @@
 
+html {
+    background: url(https://parthenonpub.com/assets/2015/07/downtown.jpg);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin: 12rem;
+    justify-content: space-evenly;
+    background-color: beige;
+    opacity: .75;
+    border: 4px solid black;
+    padding: .5rem;
+}
+
+header {
+    text-align: center;
+    font-size: 80pt;
+    font-family: 'Changa One', cursive;
+}
+
+.blurb {
+    display: flex;
+    align-items: center;
+    margin: 12rem;
+    justify-content: space-evenly;
+    background-color: beige;
+    opacity: .75;
+    border: 4px solid black;
+    padding: .5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48pt;
+    font-family: 'Changa One', cursive;
+}
+}
+=======
+
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
