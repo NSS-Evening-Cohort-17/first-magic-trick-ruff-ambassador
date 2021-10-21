@@ -2,6 +2,13 @@
 <html>
 <title>Ruff Ambassadors</title>
 <style>
+
+/*Background Image*/
+body {
+  background: url(https://parthenonpub.com/assets/2015/07/downtown.jpg);
+}
+
+/*Styling for Global NavBar*/
   ul {
   list-style-type: none;
   margin: 0;
@@ -26,11 +33,26 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+
+/*Styling for container in center*/
+.container {
+  /* Center vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+}
 </style>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<body>
     <ul>
         <li><a href="/aboutRyan.html">Ryan</a></li>
         <li><a href="/aboutChaneice.html">Chaneice</a></li>
@@ -39,4 +61,11 @@ li a:hover {
         <li style="float:right"><a class="active" href="/index.html">Home</a></li>
       </ul>
 </div>
+
+
+<div class = "container">
+  <p class="child">Welcome to Good Eats! Nashville! Checkout Our Favorite Local Eats</p>
+
+</div>
+</body>
 
